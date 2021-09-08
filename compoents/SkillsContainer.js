@@ -58,12 +58,12 @@ const SkillsContainer = () => {
         <li>
           <span className="material-icons">api</span>
           <h3>Quering Data.</h3>
-          <p>Interact with API's to retireve, verify, and display approriate data. </p>
+          <p>Interact with API's and restful services to retireve, verify, and display approriate data. </p>
         </li>
         <li>
           <span className="material-icons">api</span>
-          <h3>Quering Data.</h3>
-          <p>Interact with API's to retireve, verify, and display approriate data. </p>
+          <h3>Maintain Mobile and Responsive Design.</h3>
+          <p>Change a website’s layout depending on the device and screen size, and occasionally requiring changes to the content and functionality.</p>
         </li>
       </ul>
     </Skills>

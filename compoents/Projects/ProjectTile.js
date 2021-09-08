@@ -26,7 +26,8 @@ const Tile = styled.li`
     padding: 10px;
     text-decoration: underline;
     text-decoration-thickness: 3px;
-    font-weight: 300;
+    font-weight: 500;
+    text-decoration-skip-ink: none
   }
 
   .project__description {

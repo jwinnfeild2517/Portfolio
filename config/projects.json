@@ -57,14 +57,6 @@
     "image": "https://images.pexels.com/photos/2733337/pexels-photo-2733337.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
   },
   {
-    "id": "8",
-    "name": "Invoice Tracker",
-    "link": "https://github.com/jwinnfeild2517/invoice-tracker",
-    "description": "Invoice Tracking DashBoard for a small business",
-    "external_link": true,
-    "image": "https://images.pexels.com/photos/4602443/pexels-photo-4602443.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-  },
-  {
     "id": "9",
     "name": "React Caculator",
     "link": "https://github.com/jwinnfeild2517/react-caculator",
