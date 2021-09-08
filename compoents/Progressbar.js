@@ -5,7 +5,7 @@ import { useRef } from "react"
 
 const Bar = styled.div`
   width: 100%;
-  height: 8px;
+  height: 12px;
   background: #ccc;
   position: fixed;
   z-index: 1;

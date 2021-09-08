@@ -3,7 +3,7 @@ import SectionMarker from './SectionMarker'
 
 const Skills = styled.section`
 
-  padding: 1em;
+  padding: 2em;
   display: flex;
   flex-direction: column;
   justify-content: center;

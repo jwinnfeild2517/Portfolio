@@ -14,6 +14,7 @@ const Layout = styled.div`
   max-width: 100%;
   font-family: 'Montserrat', sans-serif;
   color: #3a4443;
+  overflow: scroll;
 
   main {
     background-color: #EEF1EF
