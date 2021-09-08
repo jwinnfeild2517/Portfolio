@@ -5,13 +5,13 @@ import { useRef } from "react"
 
 const Bar = styled.div`
   width: 100%;
-  height: 12px;
+  height: 16px;
   background: #ccc;
   position: fixed;
   z-index: 1;
 
   .progress-bar {
-    height: 8px;
+    height: 100%;
     width: 0%;
     // background: linear-gradient(90deg,
     //             rgba(131, 58, 180, 1) 0%,
