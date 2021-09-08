@@ -7,7 +7,7 @@ import projects from '../../config/projects.json'
 
 const ProjectsIndex = styled.div`
     background-color: #3A4443;
-    padding: 1em;
+    padding: 1.5em;
     color: white;
 
     ul {
@@ -18,7 +18,7 @@ const ProjectsIndex = styled.div`
       padding: 0;
     }
 
-    @media (min-width: 400px) {
+    @media (min-width: 450px) {
       ul {
         padding: 0 3em;
         justify-content: space-around;

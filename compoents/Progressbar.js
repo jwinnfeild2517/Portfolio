@@ -17,7 +17,8 @@ const Bar = styled.div`
     //             rgba(131, 58, 180, 1) 0%,
     //             rgba(253, 29, 143, 1) 50%,
     //             rgba(253, 133, 69, 1) 100%);
-    background: linear-gradient( 109.6deg, rgba(156,252,248,1) 11.2%, rgba(110,123,251,1) 91.1% );;
+    background: linear-gradient( 109.6deg, rgba(156,252,248,1) 11.2%, rgba(110,123,251,1) 91.1% );
+    width: 100%;
   }
 `
 

@@ -29,7 +29,7 @@ const Skills = styled.section`
   }
 
 
-  @media (min-width: 400px) {
+  @media (min-width: 450px) {
     ul {
       padding: 0 3em;
       justify-content: space-between;

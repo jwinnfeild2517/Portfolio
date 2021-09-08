@@ -14,10 +14,10 @@ const Layout = styled.div`
   max-width: 100%;
   font-family: 'Montserrat', sans-serif;
   color: #3a4443;
-  overflow: scroll;
-  scroll-behavior: smooth;
 
-
+  main {
+    background-color: #EEF1EF
+  }
   h2 {
     font-size: 1.8em;
     font-weight: 500;
@@ -65,8 +65,6 @@ const PortfolioLayout = ({ children }) => {
         <ProgressBar scrolled={scrollProgress}/>
         {children}
       </main>
-      <footer>
-      </footer>
     </Layout>
   )
 }

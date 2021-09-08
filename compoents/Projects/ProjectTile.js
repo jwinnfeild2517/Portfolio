@@ -39,7 +39,7 @@ const Tile = styled.li`
     line-height: 1.5em;
   }
 
-  @media (min-width: 400px) {
+  @media (min-width: 450px) {
     min-width: 400px;
   }
 `

@@ -5,6 +5,7 @@ import SectionMarker from './SectionMarker'
 const Intro = styled.section`
 
   text-align: center;
+  width: 100%;
 
   img {
     border-radius: 100%;
@@ -56,7 +57,7 @@ const Intro = styled.section`
   }
 
 
-  @media (min-width: 400px) {
+  @media (min-width: 450px) {
     .hero {
       height: 100vh;
     }
