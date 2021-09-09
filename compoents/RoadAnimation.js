@@ -14,7 +14,7 @@ const RoadAnime = styled.div`
 
   .highway {
     height: 50px;
-    width: 500%;
+    width: 3000%;
     background-image: url('/Car_Animation_Img/road.jpg');
     background-repeat: repeat-x;
     position: absolute;
