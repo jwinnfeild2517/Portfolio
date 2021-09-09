@@ -8,7 +8,7 @@ const Bar = styled.div`
   height: 16px;
   background: #ccc;
   position: fixed;
-  z-index: 1;
+  z-index: 100;
 
   .progress-bar {
     height: 100%;

@@ -10,11 +10,11 @@ const RoadAnime = styled.div`
   position: relative;
   height: 200px;
   width: 100%;
-  overflow: hidden;
+  overflow-x: hidden;
 
   .highway {
     height: 50px;
-    width: 3000%;
+    width: 500%;
     background-image: url('/Car_Animation_Img/road.jpg');
     background-repeat: repeat-x;
     position: absolute;
@@ -41,7 +41,7 @@ const RoadAnime = styled.div`
   .car {
     position: absolute;
     bottom: 10px;
-    left: 50%;
+    left: 32%;
     transform: translateX(-50%)
     margin: auto;
     z-index: 2;
@@ -50,17 +50,25 @@ const RoadAnime = styled.div`
     .left-wheel {
       z-index: 3;
       position: absolute;
-      bottom: 3px;
+      bottom: 5px;
       right: 18px;
       animation: wheel 1s linear infinite;
+      background-image: url('/Car_Animation_Img/wheel.png');
+      background-size: cover;
+      width: 26px;
+      height: 26px;
     }
 
     .right-wheel {
       z-index: 3;
       position: absolute;
-      bottom: 2px;
-      right: 110px;
+      bottom: 5px;
+      right: 110.6px;
       animation: wheel 1s linear infinite;
+      background-image: url('/Car_Animation_Img/wheel.png');
+      background-size: cover;
+      width: 26px;
+      height: 26px;
     }
   }
 
@@ -109,22 +117,9 @@ const RoadAnimation = () => (
         width={150}
       />
       <div className="left-wheel">
-        <Image
-          unoptimized
-          alt=""
-          src="/Car_Animation_Img/wheel.png"
-          height={25}
-          width={25}
-        />
+
       </div>
       <div className="right-wheel">
-        <Image
-          unoptimized
-          alt=""
-          src="/Car_Animation_Img/wheel.png"
-          height={25}
-          width={25}
-        />
       </div>
     </div>
 
